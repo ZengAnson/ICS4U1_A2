@@ -22,7 +22,7 @@
 #logo {
     position: absolute;
     top: 5px;
-    left: 20px;
+    left: 15px;
 }
 
 .headertext {
@@ -33,7 +33,7 @@
 
 .webtitle {
     position: absolute;
-    left: 80px;
+    left: 70px;
 }
 
 
@@ -78,12 +78,29 @@
     position: relative;
     left: 0;
     top: 0;
+    width: 100%;
+    min-width: 600px;
 }
 
+#heroimage{
+    position: absolute;
+    width: 1540px;
+    right: 0;
+}
+
+.shadow{
+    position:absolute;
+    width: 100vw;
+    height: 575px;
+    background-color: black;
+    background-image: linear-gradient(black, white, black);
+    opacity:0.8;
+}
 .overlay{
     position: absolute;
     width:100%;
     background-color: black;
     z-index: 2; 
     color: white;
+    
 }
