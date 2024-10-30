@@ -7,7 +7,7 @@
 .header {
     position: relative;
     background-color: #00d76f;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     color: white;
 }
@@ -71,7 +71,7 @@
     height: 575px;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     min-width: 600px;
 }
 
@@ -83,6 +83,7 @@
 
 .shadow{
     position:absolute;
+    min-width: 600px;
     width: 100vw;
     height: 575px;
     background-color: black;
@@ -175,6 +176,7 @@ img.poster{
 
 /* footer */
 .footer{
+    width: 100vw;
     min-width:480px;
     padding: 100px 0 0 120px;
     background-color: black;
