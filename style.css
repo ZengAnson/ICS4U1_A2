@@ -177,13 +177,13 @@ img.poster{
 /* footer */
 .footer{
     width: 100vw;
-    min-width:480px;
-    padding: 100px 0 0 120px;
+    min-width:599px;
+    padding: 100px 0 0 100px;
     background-color: black;
     position: relative;
     display: grid;
     grid-template-rows: repeat(2, 100px);
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
 }
 
 .grid{
